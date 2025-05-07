@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-api-mongodb",
+  "version": "1.0.0",
+  "description": "A simple Node.js API that connects to a MongoDB database to retrieve user data.",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^7.0.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
